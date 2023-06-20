@@ -43,6 +43,33 @@ main {
     position: absolute;
     left: -20%;
     top: -5%;
+    pointer-events: none;
+}
+
+.robo-colors {
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+}
+
+.robo-colors.preto{
+    background-color: black;
+}
+
+.robo-colors.branco{
+    background-color: white;
+}
+.robo-colors.azul{
+    background-color: blue;
+}
+.robo-colors.amarelo{
+    background-color: yellow;
+}
+.robo-colors.vermelho{
+    background-color: red;
+}
+.robo-colors.rosa{
+    background-color: pink;
 }
 
 .titulo {
