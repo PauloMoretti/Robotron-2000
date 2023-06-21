@@ -61,5 +61,5 @@ function atualizaEstatisticas(peca) {
 
 
 function trocarImg(cor) {
-  document.querySelector("#robotron").src="img/Robotron 2000 - " + cor + ".png"
+  document.querySelector("#robotron").src= `img/Robotron 2000 - ${cor}.png`
 }
